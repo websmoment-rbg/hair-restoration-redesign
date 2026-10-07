@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Trichology & Restoration",
+  "description": "Premium hair restoration assessment and personalized clinical consultation conversion platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

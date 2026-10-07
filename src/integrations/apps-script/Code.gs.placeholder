@@ -1,0 +1,20 @@
+// [GOOGLE_APPS_SCRIPT_CODE_PENDING]
+//
+// Description:
+// Webhook Google Apps Script receiver for the Hair Restoration Assessment Lead Funnel.
+//
+// When deployed as a Web App (execute as Me, Anyone can access), this script receives
+// JSON payloads from the Hair Restoration Assessment web application and appends
+// a comprehensive lead record row to the configured Google Sheet.
+//
+// Expected Payload structure:
+// {
+//   patient: { fullName, phone, email, problem, age },
+//   assessmentId, patientId, sessionId, timestamp, leadType,
+//   answers: { Q1..Q20 },
+//   primaryConcern, secondaryConcern, primaryGoal,
+//   scores: { hairline, coverage, perceivedChange, goalStrength, motivation, journey, readiness, profileSignalIndex },
+//   bands: { hairline, coverage, perceivedChange, motivation, readiness },
+//   readinessStage, consultationIntent, ctaTier, procedurePathway,
+//   confidence, flags, safetyStatus, engineVersion, utm, device
+// }
